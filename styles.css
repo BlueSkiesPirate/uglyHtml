@@ -1,0 +1,89 @@
+body{
+background-color: black;
+color:white;
+display:flex;
+display:block;
+}
+
+
+h1{
+font-size: 40px;
+color:yellow;
+text-align: center;
+background-color: rgb(46, 67, 153);
+padding:10px;
+margin-top: 40px;
+font-family: "lucida console", monospace;
+}
+
+h2{
+    font-size:20px;
+    font-family: "lucida console", monospace;
+}
+
+#starters_image_div{
+    width:400px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: center;
+    border:solid 2px;
+    border-color: blue;
+    padding:5px
+}
+.list{
+    font-family: "lucida console", monospace;
+}
+
+li{
+    list-style-type: square;
+
+}
+
+.each_pokemon_container{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.pokemon_images{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:15%;
+    height:150px;
+}
+
+#bulbasaur_container{
+    background-color: rgb(128, 217, 148);
+    border:solid 1px rgb(240, 226, 122);
+    border-radius: 10px;
+    padding:10px;
+    font-family: "lucida console", monospace;
+
+}
+
+
+#charmander_container{
+    background-color: rgb(230, 151, 124);
+    border:solid 1px rgb(240, 226, 122);
+    border-radius: 10px;
+    padding:10px;
+    font-family: "lucida console", monospace;
+
+
+}
+
+#squirtle_container{
+    background-color: rgb(124, 207, 230);
+    border:solid 1px rgb(240, 226, 122);
+    border-radius: 10px;
+    padding:10px;
+    font-family: "lucida console", monospace;
+
+}
+
+footer{
+    margin-top:90px;
+    font-size: small;
+}
